@@ -1,9 +1,10 @@
-import {  Text, TextInput, View } from 'react-native'
+import {  ScrollView, Text, TextInput, View } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
 import * as Icon from "react-native-feather";
 import { themeColors } from '../theme';
+import Categories from '../components/Categories';
 
 
 const HomeScreen = () => {
@@ -28,7 +29,15 @@ const HomeScreen = () => {
  </View>
 
 {/* Main section */}
+<ScrollView
+showsVerticalScrollIndicator={false}
+contentContainerStyle={{
+  paddingBottom: 20
+}}
+>
 
+  <Categories/>
+</ScrollView>
 
       
     </SafeAreaView>
