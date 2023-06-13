@@ -7,12 +7,12 @@ const FeaturedRow = ({title, description, restaurants}) => {
   return (
     <View>
       <View>
-<View>
-    <Text className="font-bold text-lg">{title}</Text>
+<View className="mx-4">
+    <Text className="font-bold text-2xl">{title}</Text>
     <Text className="text-gray-500 text-xs">{description}</Text>
 </View>
 <TouchableOpacity>
-    <Text style={{color: themeColors.text}} className="font-semibold">See All</Text>
+    <Text style={{color: themeColors.text}} className="font-semibold mx-4">See All</Text>
 </TouchableOpacity>
       </View>
 <ScrollView

@@ -3,6 +3,7 @@ import React from 'react'
 import * as Icon from "react-native-feather";
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { themeColors } from '../theme';
+import DishRow from '../components/DishRow';
 
 const RestaurantScreen = () => {
   const {params} = useRoute();
@@ -45,14 +46,22 @@ className="bg-white -mt-12 pt-6"
     <Icon.MapPin color="gray" width="15" height="15"/>
     <Text className="text-gray-700 text-xs">Nearby . {item.address}</Text>
 </View>  
-
-  </View>
+</View>
+<Text className="text-gray-500 mt-2">{item.description}</Text>
+</View>
+</View>
+<View className="bg-white pb-36">
+ <Text className="px-4 py-4 text-2xl font-bold">Menu</Text> 
+{/* Dishes/Snacks */}
+{/* Let's map the Dishes */}
+{
+  item.dishes.map((dish, index) => 
+  <DishRow item={{...dish}} key={index}/>
+  )
+}
 
 
 </View>
-
-</View>
-
            </ScrollView>
     </View>
   )
