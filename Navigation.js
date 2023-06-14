@@ -4,6 +4,7 @@ import HomeScreen from './screens/HomeScreen';
 import RestaurantScreen from './screens/RestaurantScreen';
 import { NativeWindStyleSheet } from "nativewind";
 
+
 NativeWindStyleSheet.setOutput({
   default: "native",
 });
