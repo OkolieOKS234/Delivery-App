@@ -18,9 +18,9 @@ const RestaurantCard = ({item}) => {
         shadowColor: themeColors.bgColor(0.2),
         shadowRadius: 7
       }}
-      className="mr-6 bg-white rounded-3xl shadow-lg">
+      className="mr-6 bg-white rounded-3xl shadow-lg mb-7">
         <Image className="h-36 w-64 rounded-t-3xl" source={item.image}/>
-        <View className="px-3 pb-4 space-y-2">
+        <View className="px-3 pb-2 space-y-2">
             <Text className="text-lg font-bold pt-2">{item.name}</Text>
             <View className="flex-row items-center space-x-1 pb-4">
                 <Image source={require("../assets/images/fullStar.png")} className="h-4 w-4"/>
