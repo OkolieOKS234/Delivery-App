@@ -34,7 +34,7 @@ className="flex-row px-4 items-center">
 <Image source={require("../assets/images/bikeGuy.png")}
 className="w-20 h-20 rounded-full"
 />
-<Text className="flex-1 pl-4">Delivery in 30 minutes</Text>
+<Text className="flex-1 pl-4">Delivery in less than 30 minutes</Text>
 <TouchableOpacity>
   <Text className="font-bold" style={{color: themeColors.text}}>
     Change
@@ -102,6 +102,7 @@ style={{backgroundColor:themeColors.bgColor(1)}}
 </View>
 <TouchableOpacity 
 style={{backgroundColor:themeColors.bgColor(1)}}
+className="p-3 my-4 rounded-full"
 >
 <Text className="text-white text-center font-bold text-lg">
   Place Order
