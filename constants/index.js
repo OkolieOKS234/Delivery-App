@@ -54,21 +54,21 @@ export const featured = {
                    id: 1,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 2,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 3,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
             ]
@@ -90,21 +90,21 @@ export const featured = {
                    id: 1,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 2,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 3,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
             ]
@@ -126,21 +126,21 @@ export const featured = {
                    id: 1,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 2,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
                 {
                    id: 3,
                    name: 'pizza',
                    description: 'cheezy garlic pizza',
-                   price: 10,
+                   price: 2000,
                    image:  require('../assets/images/pizzaDish.png')
                 },
             ]

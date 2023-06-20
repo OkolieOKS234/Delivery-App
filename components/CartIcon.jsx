@@ -25,7 +25,7 @@ View Cart
 </Text>
 {/* Total number of items in the Cart */}
 <Text className="font-extrabold text-white text-lg">
-₦‎{6980.76}
+₦‎{6000.00}
 </Text>
       </TouchableOpacity>
     </View>
