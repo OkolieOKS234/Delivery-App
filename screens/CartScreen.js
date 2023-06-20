@@ -1,4 +1,4 @@
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, ScrollView } from 'react-native'
 import React from 'react'
 import * as Icon from "react-native-feather"
 import {featured} from "../constants"
@@ -36,7 +36,9 @@ className="w-20 h-20 rounded-full"
 />
 <Text className="flex-1 pl-4">Delivery in 30 minutes</Text>
 <TouchableOpacity>
-  <Text className="font-bold"></Text>
+  <Text className="font-bold" style={{color: themeColors.text}}>
+    Change
+  </Text>
 
 </TouchableOpacity>
 
@@ -50,18 +52,18 @@ contentContainerStyle={{
 }}
 className="bg-white pt-5"
 >
-{
+{/* {
   restaurant.map((dish, index)=>{
     return (
     <View key={index}
     className="flex-row items-center spce-x-3 bg-white rounded-3xl mx-2 mb-3 shadow-lg"
     >
-<Text className="font-bold" style={{color: themeColors.text}}></Text>
+<Text className="font-bold" style={{color: themeColors.text}}>Se</Text>
 
     </View>
       )
   })
-}
+} */}
 
 </ScrollView>
     </View>
