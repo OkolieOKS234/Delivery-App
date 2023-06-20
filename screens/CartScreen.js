@@ -84,7 +84,7 @@ style={{backgroundColor:themeColors.bgColor(1)}}
 <View className="px-6 p-6 rounded-t-3xl " style={{backgroundColor: themeColors.bgColor(0.2)}}>
 <View className="flex-row justify-between">
   <Text className="text-gray-700">Total:</Text>
-  <Text className="text-gray-700">&#8358;6938
+  <Text className="text-gray-700">&#8358;12000
 </Text>
 </View>
 
@@ -97,9 +97,17 @@ style={{backgroundColor:themeColors.bgColor(1)}}
 <View className="flex-row justify-between pt-2 border border-gray-800">
   <Text className="text-gray-700 font-bold ">Subtotal:</Text>
  
-  <Text className="text-gray-700 font-bold">&#8358; 7138
+  <Text className="text-gray-700 font-bold">&#8358; 12200
 </Text>
 </View>
+<TouchableOpacity 
+style={{backgroundColor:themeColors.bgColor(1)}}
+>
+<Text className="text-white text-center font-bold text-lg">
+  Place Order
+</Text>
+
+</TouchableOpacity>
 
 </View>
 
