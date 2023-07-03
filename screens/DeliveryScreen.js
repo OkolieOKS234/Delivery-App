@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { featured } from '../constants';
+import * as Icon from "react-native-feather"
 import MapView,{ Marker } from 'react-native-maps';
 
 import { themeColors } from '../theme';
@@ -66,7 +67,10 @@ pinColor= {themeColors.bgColor(1)}
     </View>
 <View className="flex-row items-center space-x-3 mr-3">
 <TouchableOpacity className="bg-white p-2 rounded-full">
-
+<Icon.Phone fill={themeColors.bgColor(1)} stroke={themeColors.bgColor(1)}/>
+</TouchableOpacity>
+<TouchableOpacity onPress={()=>navigation.navigate("Home")} className="bg-white p-2 rounded-full">
+<Icon.X  stroke={"red"} strokeWidth={5}/>
 </TouchableOpacity>
 </View>
 
