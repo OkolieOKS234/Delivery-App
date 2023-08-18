@@ -10,9 +10,9 @@ NativeWindStyleSheet.setOutput({
 
 export default function App() {
   return (
-    <Provider store={store}>
+    // <Provider store={store}>
    <Navigation/>
-   </Provider>
+  //  </Provider>
   );
 }
 

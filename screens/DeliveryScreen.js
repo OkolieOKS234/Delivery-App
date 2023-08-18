@@ -4,12 +4,21 @@ import { useNavigation } from '@react-navigation/native'
 import { featured } from '../constants';
 import * as Icon from "react-native-feather"
 import MapView,{ Marker } from 'react-native-maps';
+import call from "react-native-phone-call";
 
 import { themeColors } from '../theme';
 
 
 
 const DeliveryScreen = () => {
+
+// const Deliver = ()=>{
+//   const args ={
+    
+//   }
+  
+}
+
     const navigation = useNavigation();
     const restaurant = featured.restaurants[0]
   return (

@@ -8,9 +8,9 @@ import OrderPreparingScreen from './screens/OrderPreparingScreen';
 import DeliveryScreen from './screens/DeliveryScreen';
 
 
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
+// NativeWindStyleSheet.setOutput({
+//   default: "native",
+// });
 
 
 const Stack = createNativeStackNavigator()
